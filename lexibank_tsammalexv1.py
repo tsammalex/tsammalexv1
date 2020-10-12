@@ -1,6 +1,7 @@
 from pathlib import Path
 import pylexibank
 
+from csvw.dsv import UnicodeWriter
 from pytsammalex.gbif import GBIF
 
 # Customize your basic data.
@@ -45,15 +46,18 @@ class Dataset(pylexibank.Dataset):
         A `pylexibank.cldf.LexibankWriter` instance is available as `args.writer`. Use the methods
         of this object to add data.
         """
-        for c in self.concepts:
-            res = GBIF().suggest(q=c['scientific_name'])
-            if res:
-                res = res[0]
-                if (not res['synonym']) and res['status'] == 'ACCEPTED':
-                    print(','.join([c['id'], c['scientific_name'], str(res['key'])]))
-                    continue
-            print(','.join([c['id'], c['scientific_name'], '']))
-
+        cols = 'rank,kingdom,phylum,class,order,family,genus,kingdomKey,phylumKey,classKey,orderKey,familyKey,genusKey'.split(
+                   ',')
+        with UnicodeWriter('concepts.csv') as w:
+            w.writerow(['ID', 'Name', 'canonicalName', 'GBIF_ID', 'GBIF_NAME'] + cols)
+            for c in self.concepts:
+                if c['GBIF_ID']:
+                    res = GBIF().usage(key=c['GBIF_ID'])
+                    row = [c['id'], c['scientific_name'], res['canonicalName'], str(c['GBIF_ID']), res['scientificName']] + \
+                        [str(res.get(c, '')) for c in cols]
+                else:
+                    row = [c['id'], c['scientific_name'], '', '', ''] + ['' for _ in cols]
+                w.writerow(row)
         return
         data = self.raw_dir.read_csv('template.csv', dicts=True)
 

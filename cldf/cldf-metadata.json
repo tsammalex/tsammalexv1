@@ -11,7 +11,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tsammalex/tsammalexv1",
-            "dc:created": "eaacb86"
+            "dc:created": "9202d9b"
         },
         {
             "rdf:type": "prov:Entity",
@@ -21,15 +21,15 @@
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts",
-            "dc:created": "v1.4-1-g7bb16a7"
-        },
-        {
-            "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
             "dc:created": "v4.3-treedb-fixes-2-g88e2898"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "CLTS",
+            "rdf:about": "https://github.com/cldf-clts/clts",
+            "dc:created": "v1.4-1-g7bb16a7"
         }
     ],
     "prov:wasGeneratedBy": [
