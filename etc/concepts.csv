@@ -1,4 +1,4 @@
-ID,Name,canonicalName,GBIF_ID,GBIF_NAME,rank,kingdom,phylum,class,order,family,genus,kingdomKey,phylumKey,classKey,orderKey,familyKey,genusKey
+ID,Name,canonicalName,GBIF_ID,GBIF_NAME,rank,kingdom,phylum,class_,order,family,genus,kingdomKey,phylumKey,classKey,orderKey,familyKey,genusKey
 abutilonangulatum,Abutilon angulatum,Abutilon angulatum,7279613,Abutilon angulatum Mast.,SPECIES,Plantae,Tracheophyta,Magnoliopsida,Malvales,Malvaceae,Abutilon,6,7707728,220,941,6685,3152599
 acaciaataxacantha,Acacia ataxacantha,Acacia ataxantha,3979509,Acacia ataxantha DC. ex Taub.,SPECIES,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Acacia,6,7707728,220,1370,5386,2978223
 acaciacaffra,Acacia caffra,Senegalia caffra,3796193,Senegalia caffra (Thunb.) P.J.H.Hurter & Mabb.,SPECIES,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Senegalia,6,7707728,220,1370,5386,7989631

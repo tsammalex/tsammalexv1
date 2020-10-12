@@ -1,1 +1,1 @@
-ID,Name,Concepticon_ID,Concepticon_Gloss
+ID,Name,Concepticon_ID,Concepticon_Gloss,GBIF_ID,GBIF_NAME,canonicalName,rank,kingdom,kingdomKey,phylum,phylumKey,class_,classKey,order,orderKey,family,familyKey,genus,genusKey,Description

@@ -11,19 +11,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tsammalex/tsammalexv1",
-            "dc:created": "9202d9b"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.4.0-rc.1-25-g4d21fb8"
+            "dc:created": "ea66228"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
             "dc:created": "v4.3-treedb-fixes-2-g88e2898"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "dc:created": "v2.4.0-rc.1-25-g4d21fb8"
         },
         {
             "rdf:type": "prov:Entity",
@@ -241,6 +241,74 @@
                     {
                         "datatype": "string",
                         "name": "Concepticon_Gloss"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GBIF_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GBIF_NAME"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "canonicalName"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "rank"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "kingdom"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "kingdomKey"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "phylum"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "phylumKey"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "class_"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "classKey"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "order"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "orderKey"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "family"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "familyKey"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "genus"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "genusKey"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Description"
                     }
                 ],
                 "primaryKey": [

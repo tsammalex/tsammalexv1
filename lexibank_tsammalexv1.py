@@ -1,8 +1,10 @@
 from pathlib import Path
 import pylexibank
+import attr
 
 from csvw.dsv import UnicodeWriter
 from pytsammalex.gbif import GBIF
+from pytsammalex import lexibank
 
 # Customize your basic data.
 # if you need to store other data in columns than the lexibank defaults, then over-ride
@@ -10,25 +12,15 @@ from pytsammalex.gbif import GBIF
 #
 #import attr
 #
-#@attr.s
-#class Concept(pylexibank.Concept):
-#    MyAttribute1 = attr.ib(default=None)
+@attr.s
+class Taxon(lexibank.Taxon):
+    Description = attr.ib(default=None)
 
 
-class Dataset(pylexibank.Dataset):
+class Dataset(lexibank.Dataset):
     dir = Path(__file__).parent
     id = "tsammalexv1"
-
-    # register custom data types here (or language_class, lexeme_class, cognate_class):
-    #concept_class = Concept
-
-    # define the way in which forms should be handled
-    form_spec = pylexibank.FormSpec(
-        brackets={"(": ")"},  # characters that function as brackets
-        separators=";/,",  # characters that split forms e.g. "a, b".
-        missing_data=('?', '-'),  # characters that denote missing data.
-        strip_inside_brackets=True   # do you want data removed in brackets or not?
-    )
+    concept_class = Taxon
 
     def cmd_download(self, args):
         """
@@ -46,38 +38,18 @@ class Dataset(pylexibank.Dataset):
         A `pylexibank.cldf.LexibankWriter` instance is available as `args.writer`. Use the methods
         of this object to add data.
         """
-        cols = 'rank,kingdom,phylum,class,order,family,genus,kingdomKey,phylumKey,classKey,orderKey,familyKey,genusKey'.split(
-                   ',')
-        with UnicodeWriter('concepts.csv') as w:
-            w.writerow(['ID', 'Name', 'canonicalName', 'GBIF_ID', 'GBIF_NAME'] + cols)
-            for c in self.concepts:
-                if c['GBIF_ID']:
-                    res = GBIF().usage(key=c['GBIF_ID'])
-                    row = [c['id'], c['scientific_name'], res['canonicalName'], str(c['GBIF_ID']), res['scientificName']] + \
-                        [str(res.get(c, '')) for c in cols]
-                else:
-                    row = [c['id'], c['scientific_name'], '', '', ''] + ['' for _ in cols]
-                w.writerow(row)
+        descs = {
+            r['id']: r['characteristics'] for r in
+            self.raw_dir.read_csv('taxa.csv', dicts=True)
+        }
+        for concept in self.concepts:
+            args.writer.add_concept(Description=descs[concept['ID']], **concept)
         return
-        data = self.raw_dir.read_csv('template.csv', dicts=True)
-
-        # short cut to add concepts and languages, provided your name spaces
-        # match lexibank's expected format.
-        args.writer.add_concepts()
-        args.writer.add_languages()
-
-        # if not, then here is a more detailed way to do it:
-        #for concept in self.concepts:
-        #    args.writer.add_concept(
-        #        ID=concept['ID'],
-        #        Name=concept['ENGLISH'],
-        #        Concepticon_ID=concept['CONCEPTICON_ID']
-        #    )
-        #for language in self.languages:
-        #    args.writer.add_language(
-        #        ID=language['ID'],
-        #        Glottolog=language['Glottolog']
-        #    )
+        for language in self.languages:
+            args.writer.add_language(
+                ID=language['ID'],
+                Glottolog=language['Glottolog']
+            )
 
         # add data
         for row in pylexibank.progressbar(data):
