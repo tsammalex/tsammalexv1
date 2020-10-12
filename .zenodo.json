@@ -1,0 +1,29 @@
+{
+    "access_right": "open",
+    "contributors": [],
+    "upload_type": "dataset",
+    "communities": [
+        {
+            "identifier": "lexibank"
+        },
+        {
+            "identifier": "lexibank"
+        },
+        {
+            "identifier": "lexibank"
+        },
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "title": "Tsammalex",
+    "creators": [
+        {
+            "name": ""
+        }
+    ]
+}

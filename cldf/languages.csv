@@ -1,1 +1,140 @@
 ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family
+afr,Afrikaans,afri1274,Afrikaans,afr,Africa,-33.6,19.4,Indo-European
+amh,Amharic,amha1245,Amharic,amh,Africa,10.8,38.6,Afro-Asiatic
+arb,Arabic/Standard,stan1318,Standard Arabic,arb,Eurasia,27,42,Afro-Asiatic
+asa,Pare,asut1235,Asu (Tanzania),asa,Africa,-4.2,37.8,Atlantic-Congo
+bas,Basaa,basa1284,Basa (Cameroon),bas,Africa,3.9,10.1,Atlantic-Congo
+bds,Burunge,buru1320,Burunge,bds,Africa,-5.6,36.1,Afro-Asiatic
+bem,Bemba,bemb1257,Bemba (Zambia),bem,Africa,-10.4,29.7,Atlantic-Congo
+byn,Bilin,bili1260,Bilin,byn,Africa,15.78,38.39,Afro-Asiatic
+cce,Chopi,chop1243,Chopi,cce,Africa,-24.45,34.6,Atlantic-Congo
+cjk,Chokwe,chok1245,Chokwe,cjk,Africa,-9.5,19.9,Atlantic-Congo
+dal,Dahalo,daha1245,Dahalo,dal,Africa,-1.9,40.5,Afro-Asiatic
+deu,German,stan1295,German,deu,Eurasia,,,Indo-European
+diu,Manyo/Gciriku,diri1252,Diriku,diu,Africa,-18.1,20.6,Atlantic-Congo
+dsh,Daasanach,daas1238,Daasanach,dsh,Africa,4.9,36.1,Afro-Asiatic
+eng,English,stan1293,English,eng,Eurasia,,,Indo-European
+ewo,Ewondo,ewon1239,Ewondo,ewo,Africa,3.4,11.7,Atlantic-Congo
+fan,Fang,fang1246,Fang (Equatorial Guinea),fan,Africa,1.7,11.6,Atlantic-Congo
+fwe,Fwe,fwee1238,Fwe,fwe,Africa,-17.9,24.5,Atlantic-Congo
+gku,ǂUngkue†,vaal1235,Vaal-Orange,kqu,Africa,-29.0,25.5,Tuu
+gmv,Gamo,gamo1243,Gamo,gmv,Africa,6.2,37.3,Ta-Ne-Omotic
+guz,Gusii,gusi1247,Gusii,guz,Africa,-0.97,34.6,Atlantic-Congo
+gwd-gol,Gawwada/Gollango,goll1242,Gollango,,Africa,5.38,37.27,Afro-Asiatic
+gwj,Gǀui,gwii1239,/Gwi,gwj,Africa,-23.3,23.6,Khoe-Kwadi
+hay,Haya,haya1250,Haya,hay,Africa,-1.7,31.5,Atlantic-Congo
+her,Herero,here1253,Herero,her,Africa,-21.7,18.1,Atlantic-Congo
+hio-g,Tshwa/Ganadi,tsoa1238,Northern Tshwa,hio,Africa,-18.5,25.7,Khoe-Kwadi
+hio-h,Tshwa/Hietshware,tsoa1238,Northern Tshwa,hio,Africa,-20.7,26.7,Khoe-Kwadi
+hts,Hadza,hadz1240,Hadza,hts,Africa,-3.6,34.8,Hadza
+huc,ǂ'Amkoe,huaa1248,East Taa,nmn,Africa,-23.8,24.7,Tuu
+ikx,Ik,ikkk1242,Ik,ikx,Africa,3.61,34.25,Kuliak
+irk,Iraqw,iraq1241,Iraqw,irk,Africa,-3.9,35.4,Afro-Asiatic
+kam,Kamba,kamb1297,Kamba (Kenya),kam,Africa,-1.61,37.95,Atlantic-Congo
+kck,Kalanga,kala1384,Kalanga,kck,Africa,-21.7,27.8,Atlantic-Congo
+kde,Makonde,mako1251,Makonde,kde,Africa,-10.8,39.6,Atlantic-Congo
+kel,Kela,kela1254,Kela (Democratic Republic of Congo),kel,Africa,-1.39,24.01,Atlantic-Congo
+kik,Kikuyu,kiku1240,Kikuyu,kik,Africa,-0.4,36.7,Atlantic-Congo
+kin,Rwanda,kiny1244,Kinyarwanda,kin,Africa,-2.0,30.0,Atlantic-Congo
+kmb,Kimbundu,kimb1241,Kimbundu,kmb,Africa,-9,14.9,Atlantic-Congo
+knw,ǃXun,huaa1248,East Taa,nmn,Africa,-18.2,19.1,Tuu
+kon,Kongo,core1256,Core Kikongo,,,-5.3,13.6,Atlantic-Congo
+kqz,ǃOra†,kora1292,Korana,kqz,Africa,-29.0,20.1,Khoe-Kwadi
+ktz,Juǀ'hoan,juho1239,South-Eastern Ju,ktz,Africa,-20.1,20.4,Kxa
+kua,Wambo,kuan1247,Kuanyama,kua,Africa,-17.7,15.7,Atlantic-Congo
+kuvale,Kuvale,,,,,-13.9,13.4,
+kwn,Kwangali,kwan1273,Kwangali,kwn,Africa,-17.8,19.7,Atlantic-Congo
+kwz,Kwadi†,kwad1244,Kwadi,kwz,Africa,-15.9,12.1,Khoe-Kwadi
+laj,Lango,lang1324,Lango (Uganda),laj,Africa,2.14,33.06,Nilotic
+lam,Lamba,lamb1271,Lamba,lam,Africa,-12.8,27.9,Atlantic-Congo
+lch,Luchazi,luch1239,Luchazi,lch,Africa,-13.7,20.4,Atlantic-Congo
+lea,Lega-Shabunda,lega1249,Lega-Shabunda,lea,Africa,-3.8,27.1,Atlantic-Congo
+lin,Lingala,ling1263,Kinshasa Lingala,lin,Africa,-1.3,17.2,Atlantic-Congo
+loz,Lozi,lozi1239,Lozi,loz,Africa,-16.85,24.0,Atlantic-Congo
+lua,Luba-Kasai,luba1249,Luba-Lulua,lua,Africa,-5.9,22.3,Atlantic-Congo
+lub,Luba-Katanga,luba1250,Luba-Katanga,lub,Africa,-8.0,25.0,Atlantic-Congo
+lue,Lwena,luva1239,Luvale,lue,Africa,-12.5,21.7,Atlantic-Congo
+lug,Ganda,gand1255,Ganda,lug,Africa,0.3,31.9,Atlantic-Congo
+lun,Lunda,lund1266,Lunda,lun,Africa,-10.6,22.7,Atlantic-Congo
+luo,Luo,luok1236,Luo (Kenya and Tanzania),luo,Africa,-0.2,34.9,Nilotic
+lwn-a,Lower Nossob/ǀ'Auni†,lowe1407,Lower-Nosop,,Africa,-25.8,20.3,Tuu
+lwn-h,Lower Nossob/ǀHaasi†,lowe1407,Lower-Nosop,,Africa,-25.3,19.5,Tuu
+mas,Maasai,masa1300,Masai,mas,Africa,-2,36.4,Nilotic
+mcp,Makaa,maka1304,Makaa,mcp,Africa,4.2,13.1,Atlantic-Congo
+mdj,Mangbetu,mang1394,Mangbetu,mdj,Africa,2.55,27.07,Central Sudanic
+mer,Meru,meru1245,Meru,mer,Africa,0.26,37.74,Atlantic-Congo
+mfc,Mba,mbaa1245,Mba,mfc,Africa,1.07,25.14,Atlantic-Congo
+mgd,Moru,moru1253,Moru,mgd,Africa,5.12,30.33,Central Sudanic
+mgw,Matumbi,matu1259,Matumbi,mgw,Africa,-8.4,38.9,Atlantic-Congo
+mhw,Mbukushu,mbuk1240,Mbukushu,mhw,Africa,-18.5,22.0,Atlantic-Congo
+mye-or,Myene/Orungu,orun1242,Orungu,,Africa,-1.49,9.50,Atlantic-Congo
+naq,Khoekhoe,nama1264,Nama (Namibia),naq,Africa,-24.4,17.0,Khoe-Kwadi
+naq-a,Khoekhoe/ǂAakhoe,haio1238,Hai//om-Akhoe,hgm,Africa,-17.6,18.3,Khoe-Kwadi
+naq-d,Khoekhoe/Damara,dama1270,Damara,,Africa,-22.8,17.9,Khoe-Kwadi
+naq-hm,Khoekhoe/Haiǁom,haio1238,Hai//om-Akhoe,hgm,Africa,-19.1,16.5,Khoe-Kwadi
+naq-n,Khoekhoe/Nama,nama1265,Nama,,Africa,-26.0,18.0,Khoe-Kwadi
+nba,Ngangela,nyem1238,Nyemba,nba,Africa,-14.8,16.5,Atlantic-Congo
+nbl,Ndebele/Northern Transvaal,sout2808,Sumayela Ndebele,,Africa,-25.3,29.1,Atlantic-Congo
+ndc,Shona/Ndau,ndau1241,Ndau,ndc,Africa,-20.3,33.9,Atlantic-Congo
+nde,Ndebele of Zimbabwe,nort2795,Zimbabwean Ndebele,nde,Africa,-19.4,28.3,Atlantic-Congo
+ndo,Wambo/Ndonga,ndon1254,Ndonga,ndo,Africa,-18.2,17.1,Atlantic-Congo
+ngh-e,Nǁang/Langeberg,nuuu1241,N||ng-Danster !Ui,ngh,Africa,-27.9,22.7,Tuu
+ngh-w,Nǁang/Nǀuu,nuuu1241,N||ng-Danster !Ui,ngh,Africa,-27.1,20.5,Tuu
+nhr,Naro,naro1249,Naro,nhr,Africa,-22.3,21.0,Khoe-Kwadi
+nih,Nyiha,nyih1240,Nyiha (Tanzania),nih,Africa,-8.9,33.0,Atlantic-Congo
+niy,Ngiti,ngit1239,Ngiti,niy,Africa,1.3,30.22,Central Sudanic
+nmn-a,Taa/ǃAma,xooo1239,West !Xoon,,Africa,-23.3,20.4,Tuu
+nmn-e,Taa/East ǃXoon,xooo1239,West !Xoon,,Africa,-22.8,21.9,Tuu
+nmn-h,Taa/ǂHuan,xooo1239,West !Xoon,,Africa,-24.6,22.7,Tuu
+nmn-t,Taa/Tshaasi,xooo1239,West !Xoon,,Africa,-23.8,22.7,Tuu
+nmn-w,Taa/West ǃXoon,xooo1239,West !Xoon,,Africa,-23.8,19.4,Tuu
+nse,Nsenga,nsen1242,Nsenga,nse,Africa,-14.9,31.1,Atlantic-Congo
+nso,Northern Sotho,pedi1238,Pedi,nso,Africa,-23.9,29.6,Atlantic-Congo
+nya,Chewa-Nyanja,nyan1308,Nyanja,nya,Africa,-13.8,33.8,Atlantic-Congo
+nyf,Mijikenda/Giryama,giry1241,Giryama,nyf,Africa,-3.31,39.66,Atlantic-Congo
+nyk,Nyaneka,nyan1305,Nyaneka,nyk,Africa,-15.4,14.5,Atlantic-Congo
+nyn,Nyankore,nyan1307,Nyankole,nyn,Africa,-0.5,30.6,Atlantic-Congo
+nyy,Nyakyusa-Ngonde,nyak1260,Nyakyusa-Ngonde,nyy,Africa,-9.4,33.8,Atlantic-Congo
+pbr,Pangwa,pang1287,Pangwa,pbr,Africa,-9.8,34.7,Atlantic-Congo
+protoagaw,Proto-Agaw*,cent2193,Agaw,,,11.7,37.5,Afro-Asiatic
+protohighlandeastcushitic,Proto-Highland East Cushitic*,high1285,Highland East Cushitic,,,7.5,38.4,Afro-Asiatic
+protokalaharikhoe,Proto-Kalahari Khoe*,nonk1236,Non-Khoekhoe,,,-22.1,24.1,Khoe-Kwadi
+protosemitic,Proto-Semitic*,semi1276,Semitic,,,30.8,39.54,Afro-Asiatic
+protosouthcushitic,Proto-South Cushitic*,sout3054,South Cushitic,,,-2.7,37.3,Afro-Asiatic
+protowestriftsoutherncushitic,Proto-West Rift Southern Cushitic,west2720,West Rift South Cushitic,,,-3.4,35.8,Afro-Asiatic
+puu,Punu,punu1239,Punu,puu,Africa,-2.67,11.67,Atlantic-Congo
+rng,Rhonga,rong1268,Ronga,rng,Africa,-26.1,32.6,Atlantic-Congo
+run,Rundi,rund1242,Rundi,run,Africa,-3.4,29.9,Atlantic-Congo
+sad,Sandawe,sand1273,Sandawe,sad,Africa,-5.2,35.4,Sandawe
+sbs,Ikuhane,subi1246,Subiya,sbs,Africa,-17.5,25.0,Atlantic-Congo
+seh,Sena,nucl1396,Sena,seh,Africa,-18.0,35.0,Atlantic-Congo
+shg-da,Shua/Danisi,dani1286,Danisi,,Africa,-20.2,25.3,Khoe-Kwadi
+shg-de,Shua/Deti,deti1240,Deti,,Africa,-21.2,24.9,Khoe-Kwadi
+sid,Sidamo,sida1246,Sidamo,sid,Africa,6.74,38.37,Afro-Asiatic
+sna,Shona,shon1251,Shona,sna,Africa,-18.0,30.8,Atlantic-Congo
+som,Somali,soma1255,Somali,som,Africa,4.5,45.3,Afro-Asiatic
+sot,Southern Sotho,sout2807,Southern Sotho,sot,Africa,-28.9,28.0,Atlantic-Congo
+ssw,Swati,swat1243,Swati,ssw,Africa,-26.5,31.3,Atlantic-Congo
+suk,Sukuma,suku1261,Sukuma,suk,Africa,-3.4,32.3,Atlantic-Congo
+swh,Swahili,swah1253,Swahili,swh,Africa,-6.2,39.4,Atlantic-Congo
+toh,Gitonga,gito1238,Gitonga,toh,Africa,-23.7,35.15,Atlantic-Congo
+toi,Tonga,tong1318,Tonga (Zambia),toi,Africa,-16.8,27.2,Atlantic-Congo
+tsc,Tswa,tswa1255,Tswa,tsc,Africa,-22.4,34.4,Atlantic-Congo
+tsn,Tswana,tswa1253,Tswana,tsn,Africa,-25.7,25.45,Atlantic-Congo
+tso,Changana,tson1249,Tsonga,tso,Africa,-23.1,32.3,Atlantic-Congo
+tum,Tumbuka,tumb1250,Tumbuka,tum,Africa,-11.3,33.5,Atlantic-Congo
+txk,Ts'ixa,,,,,-19.2,24.0,
+umb,Umbundu,umbu1257,Umbundu,umb,Africa,-12.9,14.4,Atlantic-Congo
+ven,Venda,vend1245,Venda,ven,Africa,-22.6,29.6,Atlantic-Congo
+vmw,Makhuwa,makh1264,Makhuwa,vmw,Africa,-14.6,39.1,Atlantic-Congo
+xam,ǀXam†,xamm1241,/Xam,xam,Africa,-30.8,20.4,Tuu
+xeg,ǁXegwi†,xegw1238,//Xegwi,xeg,Africa,-26.6,29.9,Tuu
+xho,Xhosa,xhos1239,Xhosa,xho,Africa,-31.6,28.0,Atlantic-Congo
+xkv,Kgalagadi,kgal1244,Kgalagadi,xkv,Africa,-24.1,23.8,Atlantic-Congo
+xuu-a,Khwe/ǁAni,anii1247,||Ani,,Africa,-18.4,21.8,Khoe-Kwadi
+xuu-b,Khwe/Buga,buga1248,Buga-Kxoe,,Africa,-18.8,22.9,Khoe-Kwadi
+xuu-k,Khwe/Caprivi,kxoe1243,Kxoe,xuu,Africa,-17.9,22.7,Khoe-Kwadi
+yao,Yao,yaoo1241,Yao,yao,Africa,-12.6,36.2,Atlantic-Congo
+yey,Yeyi,yeyi1239,Yeyi,yey,Africa,-19.5,22.4,Atlantic-Congo
+zne,Zande,zand1248,Zande,zne,Africa,4.62,26.72,Atlantic-Congo
+zul,Zulu,zulu1248,Zulu,zul,Africa,-28.5,30.6,Atlantic-Congo

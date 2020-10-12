@@ -4,6 +4,7 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:isVersionOf": null,
     "dc:related": null,
+    "dc:source": "sources.bib",
     "dc:title": "Tsammalex",
     "dcat:accessURL": "https://github.com/tsammalex/tsammalexv1",
     "prov:wasDerivedFrom": [
@@ -11,19 +12,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tsammalex/tsammalexv1",
-            "dc:created": "ea66228"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.3-treedb-fixes-2-g88e2898"
+            "dc:created": "9b20c57"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "dc:created": "v2.4.0-rc.1-25-g4d21fb8"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
+            "dc:created": "v4.3-treedb-fixes-2-g88e2898"
         },
         {
             "rdf:type": "prov:Entity",
@@ -50,7 +51,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 0,
+            "dc:extent": 5502,
             "tableSchema": {
                 "columns": [
                     {
@@ -119,6 +120,51 @@
                     {
                         "datatype": "string",
                         "name": "Profile"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ipa"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "grammatical_info"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "plural_form"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "basic_term"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "meaning"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "literal_translation"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "usage"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "linguistic_notes"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "related_lexemes"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": ";",
+                        "name": "uses"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ethnobiological_notes"
                     }
                 ],
                 "foreignKeys": [
@@ -153,7 +199,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 0,
+            "dc:extent": 139,
             "tableSchema": {
                 "columns": [
                     {
@@ -219,7 +265,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 0,
+            "dc:extent": 897,
             "tableSchema": {
                 "columns": [
                     {
@@ -316,6 +362,79 @@
                 ]
             },
             "url": "parameters.csv"
+        },
+        {
+            "dc:extent": 2662,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "valueUrl": "https://cdstar.shh.mpg.de/bitstreams/{objid}/{bitstreamid}",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Taxon_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "objid"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "bitstreamid"
+                    },
+                    {
+                        "separator": ";",
+                        "name": "tags"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "mime_type"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "creator"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "date"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "place"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "permission"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "source"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Comment"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Taxon_ID"
+                        ],
+                        "reference": {
+                            "resource": "parameters.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "images.csv"
         }
     ]
 }
