@@ -1,30 +1,31 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
+    "dc:bibliographicCitation": "Christfried Naumann, Kathrin Heiden, No\u00e9mie Jaulgey and Lena Sell 2016. Tsammalex: A lexical database on plants and animals",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:isVersionOf": null,
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "Tsammalex",
+    "dc:title": "Tsammalex: A lexical database on plants and animals",
     "dcat:accessURL": "https://github.com/tsammalex/tsammalexv1",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/tsammalex/tsammalexv1",
-            "dc:created": "9b20c57"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.4.0-rc.1-25-g4d21fb8"
+            "dc:created": "5990079"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
             "dc:created": "v4.3-treedb-fixes-2-g88e2898"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "dc:created": "v2.4.0-rc.1-25-g4d21fb8"
         },
         {
             "rdf:type": "prov:Entity",

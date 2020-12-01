@@ -2,4 +2,8 @@
 
 Name | GitHub user | Role
 --- | --- | ---
- | @ | maintainer
+Christfried Naumann | @ChristfriedNaumann | author
+Kathrin Heiden | | author
+Noémie Jaulgey | @jaulgey | author
+Lena Sell | @LenaSell | author
+Robert Forkel | @xrotwang | maintainer

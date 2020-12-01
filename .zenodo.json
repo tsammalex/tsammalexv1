@@ -14,16 +14,32 @@
         },
         {
             "identifier": "lexibank"
+        },
+        {
+            "identifier": "lexibank"
         }
     ],
     "keywords": [
         "cldf:Wordlist",
         "linguistics"
     ],
-    "title": "Tsammalex",
+    "title": "Tsammalex: A lexical database on plants and animals",
     "creators": [
         {
-            "name": ""
+            "name": "Christfried Naumann"
+        },
+        {
+            "name": "Kathrin Heiden"
+        },
+        {
+            "name": "No\u00e9mie Jaulgey"
+        },
+        {
+            "name": "Lena Sell"
+        },
+        {
+            "name": "Robert Forkel"
         }
-    ]
+    ],
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Christfried Naumann, Kathrin Heiden, No\u00e9mie Jaulgey and Lena Sell 2016. Tsammalex: A lexical database on plants and animals</p>\n</blockquote>"
 }

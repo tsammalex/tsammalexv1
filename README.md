@@ -1,4 +1,8 @@
-# Tsammalex
+# Tsammalex: A lexical database on plants and animals
+
+Cite the source dataset as
+
+> Christfried Naumann, Kathrin Heiden, Noémie Jaulgey and Lena Sell 2016. Tsammalex: A lexical database on plants and animals
 
 ## Statistics
 
@@ -24,6 +28,10 @@
 
 Name | GitHub user | Role
 --- | --- | ---
- | @ | maintainer
+Christfried Naumann | @ChristfriedNaumann | author
+Kathrin Heiden | | author
+Noémie Jaulgey | @jaulgey | author
+Lena Sell | @LenaSell | author
+Robert Forkel | @xrotwang | maintainer
 
 

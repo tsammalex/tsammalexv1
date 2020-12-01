@@ -1,11 +1,7 @@
 import re
-
 from pathlib import Path
-import pylexibank
-import attr
 
-from csvw.dsv import UnicodeWriter
-from pytsammalex.gbif import GBIF
+import attr
 from pytsammalex import lexibank
 import pylexibank
 
@@ -39,21 +35,9 @@ class Dataset(lexibank.Dataset):
     lexeme_class = Name
 
     def cmd_download(self, args):
-        """
-        Download files to the raw/ directory. You can use helpers methods of `self.raw_dir`, e.g.
-        to download a temporary TSV file and convert to persistent CSV:
-
-        >>> with self.raw_dir.temp_download("http://www.example.com/e.tsv", "example.tsv") as data:
-        ...     self.raw_dir.write_csv('template.csv', self.raw_dir.read_csv(data, delimiter='\t'))
-        """
+        pass
 
     def cmd_makecldf(self, args):
-        """
-        Convert the raw data to a CLDF dataset.
-
-        A `pylexibank.cldf.LexibankWriter` instance is available as `args.writer`. Use the methods
-        of this object to add data.
-        """
         descs = {
             r['id']: r['characteristics'] for r in
             self.raw_dir.read_csv('taxa.csv', dicts=True)
@@ -61,8 +45,9 @@ class Dataset(lexibank.Dataset):
         for concept in self.concepts:
             args.writer.add_concept(Description=descs[concept['ID']], **concept)
 
-        # TODO: add media!
-
+        #
+        # FIXME: add 2nd_languages and contributors!
+        #
         for language in self.raw_dir.read_csv('languages.csv', dicts=True):
             args.writer.add_language(
                 ID=language['id'],

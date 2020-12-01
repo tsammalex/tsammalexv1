@@ -1,16 +1,16 @@
 {
     "conceptlist": [],
-    "citation": null,
-    "title": "Tsammalex",
+    "citation": "Christfried Naumann, Kathrin Heiden, Noémie Jaulgey and Lena Sell 2016. Tsammalex: A lexical database on plants and animals",
+    "title": "Tsammalex: A lexical database on plants and animals",
     "id": "tsammalexv1",
     "patron": null,
     "lingpy_schema": null,
-    "description": null,
+    "description": "The 2016 edition of Tsammalex",
     "source": null,
     "related": null,
     "aboutUrl": null,
     "url": null,
-    "license": null,
+    "license": "CC-BY-4.0",
     "derived_from": null,
     "version": "2.7.0"
 }
